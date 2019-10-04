@@ -1339,9 +1339,9 @@
       <Project>{7b6433b4-6151-4bf5-af3f-9bb76ce96d75}</Project>
       <Name>EasyLOB.DIUnity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\EasyLOB-3\EasyLOB.Environment\EasyLOB.Environment.Web\EasyLOB.Environment.Web.csproj">
+    <ProjectReference Include="..\..\EasyLOB-3\EasyLOB.Environment\EasyLOB.EnvironmentWeb\EasyLOB.EnvironmentWeb.csproj">
       <Project>{050fc4d2-38b7-43b4-b6c5-267d07e87799}</Project>
-      <Name>EasyLOB.Environment.Web</Name>
+      <Name>EasyLOB.EnvironmentWeb</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\EasyLOB-3\EasyLOB.Environment\EasyLOB.Environment\EasyLOB.Environment.csproj">
       <Project>{52DF21CD-3CCA-4AA4-A013-785E4BC8CAC2}</Project>
