@@ -1,0 +1,2 @@
+2019-10-09 11:06:24.3108|ERROR|NLog|A instrução DELETE conflitou com a restrição do REFERENCE "FK_EasyLOBActivityRole_EasyLOBActivity". O conflito ocorreu no banco de dados "EasyLOB3", tabela "dbo.EasyLOBActivityRole", column 'ActivityId'.
+A instrução foi finalizada.
