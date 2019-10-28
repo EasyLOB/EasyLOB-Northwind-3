@@ -3,16 +3,13 @@ using EasyLOB.AuditTrail;
 using EasyLOB.Environment;
 using EasyLOB.Extensions.Edm;
 using EasyLOB.Identity;
-using EasyLOB.Log;
 using EasyLOB.Resources;
-using EasyLOB.Security;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
-using System.Web.SessionState;
 
 // - AnonymousIdentification
 // BundleModule
