@@ -9,7 +9,7 @@ namespace Northwind.Persistence
     {
         #region Methods
 
-        public NorthwindGenericRepositoryNH(IUnitOfWork unitOfWork)
+        public NorthwindGenericRepositoryNH(INorthwindUnitOfWork unitOfWork)
             : base(unitOfWork)
         {
             Session = (unitOfWork as NorthwindUnitOfWorkNH).Session;

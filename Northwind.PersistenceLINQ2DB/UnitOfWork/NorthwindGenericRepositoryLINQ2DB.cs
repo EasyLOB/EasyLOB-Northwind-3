@@ -9,7 +9,7 @@ namespace Northwind.Persistence
     {
         #region Methods
 
-        public NorthwindGenericRepositoryLINQ2DB(IUnitOfWork unitOfWork)
+        public NorthwindGenericRepositoryLINQ2DB(INorthwindUnitOfWork unitOfWork)
             : base(unitOfWork)
         {
             Connection = (unitOfWork as NorthwindUnitOfWorkLINQ2DB).Connection;
