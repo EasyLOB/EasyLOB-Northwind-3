@@ -8,7 +8,7 @@ namespace Northwind.Persistence
     {
         #region Methods
 
-        public NorthwindEmployeeRepositoryLINQ2DB(IUnitOfWork unitOfWork)
+        public NorthwindEmployeeRepositoryLINQ2DB(INorthwindUnitOfWork unitOfWork)
             : base(unitOfWork)
         {
         }
@@ -38,7 +38,7 @@ namespace Northwind.Persistence
                     Notes = employee.Notes,
                     ReportsTo = employee.ReportsTo,
                     PhotoPath = employee.PhotoPath,
-                    Employee_Employee = employeeReportsTo
+                    EmployeeEmployee = employeeReportsTo
                 };
         }
 

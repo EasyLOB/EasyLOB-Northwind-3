@@ -8,7 +8,7 @@ namespace Northwind.Persistence
     {
         #region Methods
 
-        public NorthwindTerritoryRepositoryLINQ2DB(IUnitOfWork unitOfWork)
+        public NorthwindTerritoryRepositoryLINQ2DB(INorthwindUnitOfWork unitOfWork)
             : base(unitOfWork)
         {
         }

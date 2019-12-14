@@ -115,7 +115,7 @@ namespace Northwind.Persistence
                     .HasLength(255)
                     .IsNullable(true)
             
-                .Property(x => x.Employee_Employee)
+                .Property(x => x.EmployeeEmployee)
                     .IsNotColumn()
 
                 .Property(x => x.Employees)

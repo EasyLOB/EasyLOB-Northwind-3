@@ -110,7 +110,7 @@ namespace Northwind.Persistence
 
             #region Associations (FK)
                         
-            References(x => x.Employee_Employee)
+            References(x => x.EmployeeEmployee)
                 .Column("ReportsTo");
 
         #endregion Associations (FK)
