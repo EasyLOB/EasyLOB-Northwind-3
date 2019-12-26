@@ -1358,6 +1358,10 @@
       <Project>{e876d7fb-2103-44d7-84d1-2db735423c9c}</Project>
       <Name>EasyLOB.Extensions.Edm</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\EasyLOB-3\EasyLOB.Extensions\EasyLOB.Extensions.Ini\EasyLOB.Extensions.Ini.csproj">
+      <Project>{7a3b48cd-b1ef-494e-8692-6d8a26997f07}</Project>
+      <Name>EasyLOB.Extensions.Ini</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\EasyLOB-3\EasyLOB.Extensions\EasyLOB.Extensions.Mail\EasyLOB.Extensions.Mail.csproj">
       <Project>{2d9412e9-8719-4bda-9957-f4e9df5deb8f}</Project>
       <Name>EasyLOB.Extensions.Mail</Name>
